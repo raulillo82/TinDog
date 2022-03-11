@@ -55,9 +55,14 @@ p {
 }
 
 /* Title Section */
+
+.image-holder{
+  position: relative;
+}
+
 .title-image {
   /* padding: 0 0 0 10%; */
-  /* position: absolute; */
+  position: absolute;
   right: 30%;
   transform: rotate(25deg);
   width: 60%;
@@ -65,15 +70,17 @@ p {
 
 #title {
   background-color: #ff4c68;
-  color: #ffffff;
+  color: #fff;
+  position: relative;
 }
 
-#title .container-fluid {
+.container-fluid {
   padding: 3% 15% 7%;
 }
 
 /* Features Section */
 #features {
+  background-color: #fff;
   padding: 7% 15%;
   position: relative;
 }
